@@ -17,7 +17,6 @@ export class Tab3Page {
   constructor(private _usersService: UsersService, private storage: Storage) {
     this.show = false;
     this.message = '';
-    this.storage.clear();
   }
 
   onSubmit() {
