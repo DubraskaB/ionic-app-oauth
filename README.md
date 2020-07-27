@@ -45,8 +45,10 @@ Esta aplicación se conecta con un Backend realizado con nodeJS, ExpressJS y Pos
 ## Generar builds para Android y iOS
 
 1. Android
-```cordova build android --release
 ```
+cordova build android --release
+``` 
 2. iOS
-```cordova build ios --release
 ```
+cordova build ios --release
+``` 
