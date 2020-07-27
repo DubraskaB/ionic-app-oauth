@@ -32,7 +32,7 @@ https://github.com/DubraskaB/nodejs-express-api-oauth-psql
 ``` 
 ## Descripción de la aplicación
 
-Esta aplicación se conecta con un Backend realizado con nodeJS, ExpressJS y PostgresSQL que utiliza el método OAuth en su API.
+Esta aplicación se conecta con un Backend realizado con nodeJS, ExpressJS y PostgresSQL que utiliza el método OAuth en su API. El token que genera el servicio POST/auth/login es guardado en la sesión de la aplicación (data storage ionic) de esta forma desde el FrontEnd se veririfica si el usuario posee un token valido para poder ver la información relacionada a las promociones.
 
 1. Si ingreso por primera vez debe registarse para crear un usuario.
 
