@@ -4,12 +4,12 @@
 
 1. Node 12.18.3
 2. Ionic 6.10.1
-3. npm 6.14.6
+3. Cordova 9.0.0
+4. npm 6.14.6
 
 ## Pasos a seguir
 
 1. Clonar el repo.
-
 ```
 git clone https://github.com/DubraskaB/ionic-app-oauth
 ```
@@ -41,3 +41,12 @@ Esta aplicación se conecta con un Backend realizado con nodeJS, ExpressJS y Pos
 3. Solo cuando haga login de forma exitosa podrá ver la sección de promociones y promoción del día. 
 
 4. Puede hacer logout para borrar los datos de sesión o ingresar con otro usuario. 
+
+## Generar builds para Android y iOS
+
+1. Android
+```cordova build android --release
+```
+2. iOS
+```cordova build ios --release
+```
