@@ -1,4 +1,4 @@
-# Instalación, configuración y Descripción
+# Instalación, configuración y descripción
 
 ## Tecnologías usadas
 
