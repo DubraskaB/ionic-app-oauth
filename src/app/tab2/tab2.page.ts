@@ -20,7 +20,6 @@ export class Tab2Page {
     this.columns = [{ name:'title'}];
     this.show = false;
     this.message = '';
-    this.storage.clear();
   }
 
   onSubmit() {
