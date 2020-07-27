@@ -1,0 +1,17 @@
+ion-title,ion-card-subtitle {
+    font-weight: bold;
+    text-align: center;
+}
+
+ion-card-content, .img, h6{
+    text-align: center;
+}
+
+.buttonLogin, .buttonRegister, .buttonLogout{
+    margin: 20px;
+}
+
+.password, .user{
+    display: grid;
+    margin: 10px 50px;
+}

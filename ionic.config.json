@@ -1,7 +1,16 @@
 {
   "name": "ionic-test",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
-  "type": "angular"
+  "type": "angular",
+  "/test": [
+    {
+      "path": "/",
+      "proxyUrl": "http://localhost:3000",
+      "secure": false,
+      "changeOrigin": true
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Promociones
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,29 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Promociones</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <section *ngIf="!show">
+    <ion-button color="medium" (click)="onSubmit()">Ver promociones</ion-button>
+    <h6>{{message}}</h6>
+  </section>
+
+  
+
+  <div class="ion-padding" *ngIf="show">
+      <!-- Theme class dark, material, bootstrap -->
+      <ngx-datatable 
+        class="material"
+        [limit]="6" 
+        [rows]="rows" 
+        [rowHeight]="50" 
+        [columns]="columns"
+        [columnMode]="'force'" 
+        [sortType]="'multi'" 
+        [headerHeight]="50" 
+        [footerHeight]="50">
+      </ngx-datatable>
+  </div>
 </ion-content>
